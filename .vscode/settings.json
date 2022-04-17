@@ -1,0 +1,7 @@
+{
+    "editor.wordWrap": "on",
+    "diffEditor.wordWrap": "on",
+    "files.associations": {
+        "files.associations": "*.mdx\": \"markdown"
+    }
+}
