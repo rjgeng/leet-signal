@@ -1,0 +1,61 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Leet & Signal
+email: rj.geng@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A way to improve coding skills.
+
+url: "https://rjgeng.github.io/leet-signal/"
+baseurl: "/leet-signal"
+github_username:  Rongjun GENG
+
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Building a Blog site from Scratch using Jekyll: "https://www.section.io/engineering-education/build-a-jekyll-site/"
+    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
+    - GitHub Pages: "https://pages.github.com/"    
+    - Creating a GitHub Pages site with Jekyll: "https://jekyllrb.com/docs/"
+    - Hosting on Github Pages: "https://www.youtube.com/watch?v=fqFjuX4VZmU"    
+
+include: ['_pages', 'code-signal-arcade/']
+kramdown:
+  input: GFM
+
+highlighter: rouge
+
+# Build settings
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-readme-index
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

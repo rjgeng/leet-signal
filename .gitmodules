@@ -1,0 +1,3 @@
+[submodule "code-signal-arcade"]
+	path = code-signal-arcade
+	url = git@github.com:code-signal/code-signal-arcade.git

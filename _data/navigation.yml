@@ -1,0 +1,38 @@
+- title: About
+  url: /about/index.html
+- title: Contact
+  url: /contact/index.html
+- title: Categories
+  sublinks:
+    - title: Code Signal
+      sublinks:
+        - title: Intro
+          url: /code-signal-arcade/code-signal-arcade-intro/README.html
+        - title: Databases
+          url: /code-signal-arcade/code-signal-arcade-databases/README.html
+        - title: The Core
+          url: /code-signal-arcade/code-signal-arcade-thecore/README.html
+        - title: Python
+          url: /code-signal-arcade/code-signal-arcade-python/README.html
+        - title: Graphs
+          url: /code-signal-arcade/code-signal-arcade-graphs/README.html
+        - title: Actual
+          url: /code-signal-arcade/code-signal-arcade-actual/README.html
+        - title: Practice
+          url: /code-signal-arcade/code-signal-arcade-practice/README.html
+        - title: Actual
+          url: /code-signal-arcade/code-signal-arcade-bloomtech/README.html
+    - title: Leet Code
+      sublinks:
+        - title: Practice
+          url: /code-signal-arcade/leetcode-arcade-practice/README.html
+    - title: CtCI 6th
+      sublinks:
+        - title: JavaScript
+          url: /code-signal-arcade/CtCI-6th-E-JS/README.html
+        - title: JS ES2015
+          url: /code-signal-arcade/CtCI-6th-E-JS-ES2015/README.html
+        - title: Python
+          url: /code-signal-arcade/CtCI-6th-E-Python/README.html
+        - title: CPP
+          url: /code-signal-arcade/CtCI-6th-E-cpp/README.html
